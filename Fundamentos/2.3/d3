@@ -1,0 +1,26 @@
+Observações:
+	
+	Cliente = O navegador que está sendo usado e a sua principal função é receber a interação do usuário e traduzi-la em uma requisição para o servidor. Na volta da resposta do servidor, o cliente deve usar a engenharia de renderização para traduzir a resposta em binários do servidor, de forma agradável e interativa para o usuário.
+	
+	Servidor = É um outro computador, não necessariamente um Super-computador. O Servidor espera por requisições de outras máquinas (clientes). Diferente do seu computador, um Servidor tem um software específico em execução que irá dizer como ele deve responder a uma requisição do seu navegador.
+	
+	Endereço IP = É um identificador númerico para dispositivos, e é ligado ao protocolo TCP/IP. Todo dispositivo ligado à internet possui um IP.
+	
+	TCP/IP = É o principal protocolo de envio e recebimento de dados na internet. É um transportador de dados.
+	 
+	 ISP = Provedor de Internet, ou seja, as empresas que fornecem os serviços de internet.
+	 
+	 DNS = É um dispositivo com uma base de dados distribuída que gerencia os nomes de serviços, computadores ou qualquer dispositivo conectado à Internet. Ele é usado para relacionar o endereço nominal (google.com) com o endereço IP. Os servidores DNS são responsáveis por localizar e traduzir para números (um endereço IP) as buscas por sites que digitamos no navegador.
+	
+ Métodos HTTP:
+ 	
+ 	GET = é utilizado para ler informações encaminhadas pelo servidor para uma URL específica, sendo apenas para leitura, ou seja, os dados não são alterados. Além disso, são idempotentes, o que significa que o efeito da requisição no servidor será sempre o mesmo - fazer milhões de requisições GET para o mesmo URL tem o mesmo efeito que uma única requisição.
+ 	
+ 	POST = é usado para criar um novo recurso, como por exemplo um formulário para login. O POST não é idempotente, ou seja, fazer duas ou mais requisições POSTS resultará em novos recursos criados (mesmo que idênticos).
+ 	
+ 	PUT = é utilizado para atualizar o recurso identificado pelo URL. Esse método também pode ser utilizado para criar um novo recurso. Requisições PUT não são consideradas operações seguras, pois o estado da aplicação é modificado no servidor. No entanto, o método PUT é idempotente porque múltiplas requisições PUT para atualizar um recurso têm o mesmo efeito que uma única requisição.
+ 	
+ 	DELETE = é utilizado para deletar um recurso identificado pelo URL. As requisições DELETE são idempotentes, pois quando deletamos um recurso ele será deletado. Você pode fazer milhares de requisições com o método DELETE que no fim o resultado será o mesmo: um recurso deletado.
+ 
+ 	REST =  É um estilo de arquitetura utilizado no design de aplicações Web.
+ 	
