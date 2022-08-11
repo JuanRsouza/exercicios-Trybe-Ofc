@@ -1,0 +1,32 @@
+O Git é um sistema de versionamento distribuído (DVCS);
+
+Para iniciar um repositório local eu tenho duas opções:
+- git init (criando um repositório novo);
+- git clone (clonando um repositório já existent, podendo criar branches e Pull Requests)
+
+O GitHub é uma plataforma de hospedagem de código-fonte com controle de versão usando o Git;
+
+
+Fluxos de iniciação de um repositório:
+
+Fluxo 1 - Após git init:
+Criar seu primeiro commit;
+Criar o repositório remoto na sua conta do GitHub;
+Adicionar a URL do repositório remoto;
+Executar o famoso push.
+
+Fluxo 2 - Após git clone:
+Criar sua branch dentro do repositório clonado;
+Fazer checkout na sua branch;
+Criar seu primeiro commit;
+Executar o famoso push.
+
+Observações:
+
+1- git branch = informa a branch que você está
+2- git branch -d = apaga a branch
+3- rm .git -fr = apaga a pasta oculta .git do repositório criado.
+4- git checkout -b "nome da nova branch" = cria uma nova branch e já muda para ela.
+5- git pull = ele "puxa" as informações atualizadas no repositório remoto, e atualiza o repositório local
+6- git push = ele envia as informações do repositório local para o remoto
+7- git fetch = verifica se há alguma mudança na branch que está no repositório remoto, no caso, algo diferente da que foi clonada por mim.
