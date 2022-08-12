@@ -1,0 +1,45 @@
+HTML = é uma linguagem de marcação de texto, e não de programação. Ela é considerada o esqueleto de uma página Web. 
+
+Para introduzir o esqueleto HTML5 no VsCode, basta digitar html, ou !, que ele completa com o modelo. Deixando claro que, para isso, o arquivo deve estar no formato html.
+
+Tags e seus atributos:
+
+    <a href="" ; target=""> </a> = O "a" serve para adicionar Links ao código. O "href" serve para referenciar à qual link estamos inserindo. O "target" serve para direcionar, junto ao "_blank", que direciona o link para uma nova página, ao invés de abrir o link na página que você está.
+
+    <img src=""; alt="">. O "img" serve para inserir uma imagem ao código. O "src", significa source, ou , fonte, trazendo o caminho da imagem, podendo ser o endereço de uma imagem na Web, ou uma imagem que esteja na pasta que está sendo utilizada. O "alt" serve para inserir uma legenda à foto, caso a imagem não carregue.
+
+    Dentro da tag <img>, no atributo "src" posso colocar um './' que já busca as imagens contidas na pasta.
+
+    <ul> 
+
+      <li> </li> = é um tópico dentro de uma lista, ou , uma linha.
+
+    </ul> = cria uma lista não ordernada
+
+    ul>li*4 = caso crie uma lista já sabendo de quantas linhas precisarei, basta colocar o sinal de maior, seguido do li, o asterisco, e o número de linhas desejado.
+
+    <ol> 
+    
+      <li> </li> = ||
+    
+    </ol> = cria uma lista Enumerada.
+
+
+    <strong> </strong> = deixa uma palavra ou frase em negrito.
+
+    <br> = quebra linhas.
+
+    <em> = deixa uma palavra ou frase em ítalico.
+
+Ctrl + / = transforma a palavra ou a frase selecionadas, em um comentário.
+
+<hr> = faz uma linha para separar qualquer coisa.
+
+id = ele cria um id para o que vc estiver querendo referenciar em qualquer outra parte do seu código. (id="#algum id")
+    
+
+Caso queira referenciar um link dentro dá página, basta colocar id's nos paragŕafos, e na lista, criar links referenciando aos id's. 
+
+Ex: 
+<p id="quarta"> <strong> Habilidade que mais gosto em mim: </strong></p>
+<li> <a href="#quinta"> Links da página </a> </li>
