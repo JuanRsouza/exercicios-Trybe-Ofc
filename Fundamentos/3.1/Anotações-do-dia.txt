@@ -8,7 +8,7 @@ Tags e seus atributos:
 
     <img src=""; alt="">. O "img" serve para inserir uma imagem ao código. O "src", significa source, ou , fonte, trazendo o caminho da imagem, podendo ser o endereço de uma imagem na Web, ou uma imagem que esteja na pasta que está sendo utilizada. O "alt" serve para inserir uma legenda à foto, caso a imagem não carregue.
 
-    Dentro da tag <img>, no atributo "src" posso colocar um './' que já busca as imagens contidas na pasta.
+    Dentro da tag <img>, no atributo "src" posso colocar um './' que já busca as imagens contidas na pasta. E o atributo width="", que permite colocar o tamanho desejado da imagem em pixels.
 
     <ul> 
 
