@@ -1,0 +1,18 @@
+Aprendendo CSS
+
+Umas das formas de fazer a estilização é colocando a tag <style> </style> dentro do <head> no html;
+A outra, melhor e mais organizada, é criar um arquivo próprio para o CSS, e para isso, tem que colocar uma tag <link> dentro do <head> para especificar o arquivo que irá linkar com o arquivo atual.
+
+Criar IDs para especificar a estilização de um item separado. Para se referir a um ID dentro do CSS deve-se chamar o caracter #.
+
+Criar Classes (class) quando quiser estilizar um conjunto de itens da mesma forma. Para se referir à uma classe dentro do CSS deve-se chamar o caracter "." . 
+
+Tags:
+
+font-size = Tamanho da fonte 
+font-family = Tipo da fonte
+color: a cor da fonte
+text-align = para alinhar o texto
+font-weight = (negrito) Mas da para configurar o quão fino ou grosso você quer deixar. O padrão são 600px.
+font-style = estilo da fonte.
+line-height = altura da linha 
