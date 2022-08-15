@@ -1,28 +1,60 @@
-div, h3:hover {
-  border:5px solid black;
-  padding: 10;
-  transition-delay: inherit;
-}
-div:first-of-type {
-  background-color: brown;
-
-}
-div:nth-of-type(2) {
-  background-color: blue;
-  
-}
-div:nth-of-type(3) {
-  background-color: aqua;
-  font-size: 20px;
-}
-div:nth-of-type(4) {
-  background-color: red;
-}
-div:nth-of-type(5) {
+ol li:nth-of-type(2n) {
   background-color: yellow;
+  color:green;
+  
 }
-h3:nth-of-type(2n+1) {
-  font-style: italic;
+ol li:nth-of-type(2n+1) {
+  text-transform: uppercase;
+}
+h1, h3 {
+  color: red;
+}
+h1{
+  font-size: 40px;
+  border: 1px solid black;]
+}
+ol li{
+  font-size: 20px;
+  font-weight: bold;
 }
 
-  
+
+#stack:hover {
+  font-weight: bold;
+  color:orange
+}
+
+#w3:hover {
+  font-weight: bold;
+  color:green;
+}
+
+#mozilla:hover {
+  font-weight: bold;
+  color:black;
+}
+
+#dev:hover {
+  font-weight: bold;
+  color:yellow;
+}
+
+#trybe:hover {
+  font-weight: bold;
+  color:greenyellow;
+}
+
+.cor {
+  color:blue;
+}
+
+#fundo {
+  background-color: pink;
+}
+
+#outrofundo {
+  background-color: pink;
+}
+
+
+
