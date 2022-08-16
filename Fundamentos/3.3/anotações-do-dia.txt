@@ -1,0 +1,35 @@
+Box Model: todos os elementos HTML são renderizados como caixas pelo browser. 
+    A caixa é composta por: MBPC ( Margin; Border; Padding & Conteúdo)
+
+    Width = Largura
+    
+    Heigth = Altura.
+    
+    Padding = controla a quantidade de espaço vazio entre o conteúdo em si e a borda da caixa.
+    
+    Border = É a borda. A propriedade border em si é considerada uma shorthand, ou seja, ela serve como um atalho para controlar um conjunto de outras propriedades que poderiam ser definidas individualmente, nesse caso border-width, border-style, 
+    e border-color!
+    
+    Margin = A margem funciona como um tipo de "campo de força" que expande o elemento para além das suas dimensões visíveis. Ela fica do lado de fora da borda e não é afetada pela estilização do elemento, servindo mais para manejar o afastamento entre as caixas.
+
+Posicionamento de Elementos:
+    
+    margin-top = distanciamento do topo da pág.
+    
+    margin-left = distanciamento da lateral esquerda da paǵ.
+    
+    position: absolute = permite posicionar qualquer elemento de acordo com o elemento pai que tenha um position diferente.
+
+    z-index = estabelece as camadas que os objetos irão ocupar e se posicionar.
+
+    float = possibilita empurrar um elemento para a esquerda ou para a direita da página, permitindo que outras estruturas possam se organizar em torno dele.
+
+Agrupamento de Seletores e Pseudoclasses:
+
+    hover: o elemento muda quando o cursor do mouse passa por cima, podendo expecificar qual evento você deseja que aconteça.
+
+    nth-of-child (odd) = para os "filhos" "ímpares" da tag desejada receberem a estilização.
+
+    nth-of-child (even) = para os "filhos" "pares" da tag desejada receberem a estilização.
+
+    nth-of-type () > h3 ou p = para especificar qual filho vai receber a estilização.
