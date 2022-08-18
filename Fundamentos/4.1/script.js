@@ -1,4 +1,4 @@
-let Candidato = "Fábio";
+let Candidato = "Rodrigo";
 
 switch (Candidato) {
   case "André" :
