@@ -38,12 +38,16 @@ h1 {
     background-color: rgb(5, 37, 36);
     color: white;
     float: right;
-    margin-top: -125px;
+    margin-top: -100px;
     margin-right: 50px;
+
 }
 
 h2 {
-    margin: 70px 30px;
+    margin: auto;
     font-style: italic;
     font-weight: bold;
 }
+ .sub{
+    margin-bottom: 500px;
+ }
