@@ -1,0 +1,28 @@
+DISPLAY: INLINE, BLOCK E INLINE-BLOCK.
+
+    Display: inline = Faz com que o elemento fique no modo "linha", como um texto, tendo apenas "lado esquerdo e direito"
+
+    Display: block = Faz com que o elemento fique no modo "bloco", ou seja, passa a ter top,rigth,bottom e left.
+
+    Display: inline-block = Mescla as duas formas e permite que um elemento que esteja em linha tenha o top e o bottom modificados.
+
+
+HTML SEMÂNTICO:
+
+    É a forma mais "limpa" de se escrever um HTML, para deixá-lo menos poluido, ao invés de colocar div para todo lado.
+
+    Tags:
+
+    <header> </header> = É o cabeçalho, contém um texto introdutório.
+
+    <nav> </nav> = Representa um conjunto de links de navegação na página.
+
+    <aside> </aside> = O elemento aside representa um conteúdo à parte. Alguns exemplos de sua utilização são: barras laterais e/ou conteúdos adjacentes à um conteúdo principal.
+
+    <article> </article> = O elemento article representa um conteúdo autocontido. Ou seja, todo o conteúdo presente dentro de um article provê as informações necessárias para sua compreensão, podendo ser reusado em outras páginas.
+
+    <section> </section> = O elemento section representa uma seção do documento, agrupando conteúdos relacionados.
+
+    <footer> </footer> = Representa o rodapé de um site ou de uma seção.
+
+    <table> </table> = O table é usado para criar uma tabela, bidimensional composta por linhas e colunas de células contendo dados. (possui as tags: <tr> ; <th> ; <td>, mantendo mais ou menos essa ordem de prioridade.)
