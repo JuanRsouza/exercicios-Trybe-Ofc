@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    padding: 10px;
+    background-color: red;
+}
+
+.div-maior {
+    border: 1px solid black;
+    line-height: 30px;
+    margin: 10px;
+    background-color: rgb(226, 226, 226);
+}
+
+.format {
+    margin: 10px 20px;
+}
+
+#destino-preferido-1 {
+    display: inline-block;
+}
+#destino-preferido-2 {
+    display: inline-block;
+}
+#destino-preferido-3 {
+    display: inline-block;
+}
+#destino-preferido-4 {
+    display: inline-block;
+}
+
+#motivo-para-ganhar {
+    display: block;
+    width: 440px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+#button-enviar {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    margin: 10px 20px;
+    padding: 10px;
+    width: 200px;
+}
+
+#button-clear {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    margin: 10px 20px;
+    padding: 10px;
+    width: 200px;
+}

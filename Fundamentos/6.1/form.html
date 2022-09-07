@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Formulário Trybe Trip</h1>
+  </header>
+  <main>
+    <form action="" method="post">
+      <div class="div-maior">
+        <div class="format" id="nome-completo">
+          <label for="complete-name"> Nome:
+            <input type="text" required name="complete-name" id="complete-name" minlength="10" maxlength="40">
+          </label>
+        </div>
+        <div class="format" id="email">
+          <label for="email-input"> Email:
+            <input type="email" name="email" id="email-input" minlength="10" maxlength="50">
+          </label>
+        </div>
+        <p class="format" id="choose-your-destination">Escolha seu destino preferido:</p>
+          <div class="format" id="destino-preferido-1">
+            <label for="destino-input-1">
+              <input type="radio" name="destino-input" id="destino-input-1" checked> Cidade
+            </label>
+          </div>
+          <div class="format" id="destino-preferido-2">
+            <label for="destino-input-2">
+              <input type="radio" name="destino-input" id="destino-input-2"> Campo
+            </label>
+          </div>
+          <div class="format" id="destino-preferido-3">
+            <label for="destino-input-3">
+              <input type="radio" name="destino-input" id="destino-input-3"> Praia
+            </label>
+          </div>
+          <div class="format" id="destino-preferido-4">
+            <label for="destino-input-4">
+              <input type="radio" name="destino-input" id="destino-input-4"> Montanha
+            </label>
+        </div>
+        <div class="format" id="motive-for-win">
+          <label for="motivo-para-ganhar">
+            Por que você deveria ser a pessoa desenvolvedora a ganhar o concurso TrybeTrip?
+            <textarea name="motive-input" id="motivo-para-ganhar" placeholder="Digite aqui o seu motivo"
+              maxlength="500"></textarea>
+          </label>
+        </div>
+        <div class="format" id="better-date">
+          <label for="melhor-data">
+            Qual a melhor data para realizar sua viagem?
+            <input type="date" name="date-input" id="melhor-data">
+          </label>
+        </div>
+        <div class="format" id="oportunites">
+          <label for="receive-oportunites">
+            <input type="checkbox" name="oportunites-input" id="receive-oportunites">
+            Gostaria de receber outras incríveis oportunidades oferecidas pela Trybe?
+          </label>
+        </div>
+        <div class="format" id="images-vacation">
+          <label for="images-vacation-used">
+            <input type="checkbox" name="images-vacation-input" id="images-vacation-used">
+            Concordo que imagens das minhas férias poderão ser usadas na divulgação de concursos futuros.
+          </label>
+        </div>
+      </div>
+      <button id="button-enviar" type="submit">Enviar</button>
+      <button id="button-clear" type="reset">Limpar</button>
+    </form>
+  </main>
+  <script src="./script.js"></script>
+</body>
+
+</html>
